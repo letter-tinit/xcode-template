@@ -17,7 +17,7 @@ struct ___FILEBASENAMEASIDENTIFIER___: View {
     }
 }
 
-// MARK: PREVIEW
+// MARK: - PREVIEW
 #Preview {
     ___FILEBASENAMEASIDENTIFIER___()
 }
