@@ -8,6 +8,7 @@ This guide will walk you through the process of importing your own custom Xcode 
 ## Steps to Import Custom Xcode Template
 
 ### Step 1: Create Template Directory
+
 1. Open Terminal.
 2. Run the following command to create a new directory with a `.xctemplate` extension:
 
@@ -31,6 +32,11 @@ This guide will walk you through the process of importing your own custom Xcode 
     cp -R MyCustomTemplate.xctemplate ~/Library/Developer/Xcode/Templates/
     ```
 
+3. Alternate: Jump to Xcode default temple file location
+   ```bash
+   cd /Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File\ Templates
+   ```
+
 ### Step 4: Restart Xcode
 1. Close Xcode if it's open.
 2. Reopen Xcode.
@@ -40,4 +46,3 @@ This guide will walk you through the process of importing your own custom Xcode 
 - Your custom template should now appear in the list of available templates.
 
 Congratulations! You have successfully imported your custom Xcode template.
-
